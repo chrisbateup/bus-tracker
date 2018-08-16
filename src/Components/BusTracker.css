@@ -1,0 +1,26 @@
+.bus-tracker {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    .bus-tracker h1 {
+        text-align: center;
+    }
+
+    .bus-tracker .bus-buttons {
+        display: flex;
+        flex-direction: row;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .bus-tracker .bus-buttons {
+            flex-direction: column;
+        }
+    }
+
+    .bus-tracker button { margin: 10px; }
