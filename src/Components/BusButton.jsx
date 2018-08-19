@@ -1,14 +1,9 @@
 import React, { Component } from 'react';
 import Button from '@material-ui/core/Button';
 
-const styles = theme => ({
-    button: {
-        margin: theme.spacing.unit,
-    }
-});
-
 class BusButton extends Component {
     state = { busColour: '' }
+    
     handleClick = () => {
         console.log(this.props.busColour)
     }
